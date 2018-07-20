@@ -1,5 +1,5 @@
 
-var playlist = {name:'jon',title:'hello'}
+var playlist = {name:title}
 
 function updatePlaylist(playlist, name, title){
   
