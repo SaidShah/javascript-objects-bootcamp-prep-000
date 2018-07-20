@@ -1,8 +1,8 @@
 
 var playlist = {name:'jon',title:'hello'}
 
-function updatePlaylist(obj, name, title){
+function updatePlaylist(playlist, name, title){
   
-  obj.assign({},{title:name})
-  return obj
+  playlist.assign({},{[title]:name})
+  return playlist
 }
